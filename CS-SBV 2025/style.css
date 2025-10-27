@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid white;
+}
+#main{
+    height: 94vh;
+    width: 85vw;
+    background-color: rgb(21, 42, 42);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+
+}
+#left{
+    height: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 2%;
+}
+#image{
+    height: 35%;
+    width: 70%;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+}
+#fruit{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#fruit:hover{
+    scale: 1.005;
+}
+#txt{
+    height: 50%;
+    width: 85%;
+    /* border: 2px solid white; */
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: column;
+    align-items: center;
+    gap: 8%;
+    
+}
+#name{
+    color: whitesmoke;
+    font-size: xx-large;
+    margin-top: 0px;
+    /* border: 2px solid white; */
+    width: fit-content;
+}
+#benefits{
+    color: whitesmoke;
+    width: 98%;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+#heading_ben{
+    font-size: x-large;
+    font-weight: bolder;
+    /* align-self: center; */
+}
+.points{
+    font-size: larger;
+}
+#right{
+    height: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50%;
+}
