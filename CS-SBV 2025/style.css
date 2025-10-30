@@ -52,7 +52,7 @@ body{
     /* justify-content: center; */
     flex-flow: column;
     align-items: center;
-    gap: 8%;
+    gap: 6%;
     
 }
 #name{
@@ -64,24 +64,101 @@ body{
 }
 #benefits{
     color: whitesmoke;
-    width: 98%;
+    width: 100%;
     display: flex;
     flex-flow: column;
     gap: 10px;
     align-items: center;
     /* border: 2px solid white; */
 }
-#heading_ben{
+#heading_condi{
     font-size: x-large;
     font-weight: bolder;
     /* align-self: center; */
 }
+#hel_points{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
 .points{
-    font-size: larger;
+    font-size: large;
 }
 #right{
     height: 90%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 10px;
     width: 50%;
+    display: flex;
+    flex-flow: column;
+    gap: 5%;
+}
+#up{
+    height: 35%;
+    width: 100%;
+    border: 2px solid white; 
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    gap: 5%;
+    align-items: center;
+    /* background-color: black; */
+}
+#imoji{
+    height: 100%;
+    width: 33%;
+    /* border: 2px solid white; */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imoji_img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}
+#about{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 5%;  
+}
+#OW_freshness{
+    color: whitesmoke;
+    font-size: xx-large;
+}
+#des_freshness{
+    color: whitesmoke;
+    font-size: medium;
+    text-align: center;
+}
+#per_freshness{
+    color: whitesmoke;
+    font-size: medium;
+}
+#down{
+    color: whitesmoke;
+}
+table{
+    width: 100%;
+    height: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+th{
+    font-size: xx-large;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+td{
+    text-align: center;
+    font-size: larger;
+    border: 2px solid white;
+    border-radius: 10px;
 }

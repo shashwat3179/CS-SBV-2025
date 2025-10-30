@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: xx-large;
+            color: black;
+        }
+        .points{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="hel_points"></div>
+    <script>
+        var raw_appple = ["1. Improves heart and cholesterol health" , "2. Controls blood sugar levels" , "3. Strengthens immunity and defenses" , "4. Supports weight loss and fullness" , "5. Aids digestion and gut health"];
+        let x = 0
+        // var a = document.getElementById("hel_points");
+        while (x < 5) {
+            var a = document.getElementById("hel_points");
+            var b = document.createElement("span");
+            b.innerText = raw_appple[x];
+            a.appendChild(b);
+            b.className = "points";
+            x++
+        }
+    </script>
+</body>
+</html>
